@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "zenタブ管理拡張機能",
+  "version": "1.0",
+  "icons": {
+    "16": "images/icon.png",
+    "32": "images/icon.png"
+  },
+  "action":{
+    "default_popup":"popup.html"
+  },
+  "host_permissions": [
+    "https://zenn.dev/*"
+  ],
+  "permissions": [
+    "tabGroups"
+  ]
+}
